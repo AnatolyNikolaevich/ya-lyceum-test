@@ -1,0 +1,47 @@
+1. Create Prj
+2. VCS -> Enable Version Control Integration
+    2.1 Select Git
+
+3. Create Python file, add code
+4. RMB -> Git -> +Add (Ctrl+Alt+A)
+    or Add to .gitignore
+
+Green - added
+Blue - edited
+
+5. VSC -> Commit (Ctrl+K)
+    5.1 Commit msg
+
+
+Prev code view:
+Alt+9 -> Log -> RMB -> Checkout Revision
+
+Ctrl+Tab - tabs list
+
+Undo changes:
+VCS -> Git -> RollBack (Ctrl+ALT+Z)
+
+
+Push to Git:
+1. Create New repository
+2. Copy URL
+3. VCS -> Git -> Remotes (name: origin, URL: paste)
+4. VCS -> Git -> Push (Ctrl+Shift+K)
+
+Add branch:
+1. LMB master (right bottom)
+2. New Branch -> name
+
+Merge:
+1. LMB master (right bottom) -> master -> Checkout
+2. LMB master (right bottom) -> branch-1 name -> Merge into Current
+3. LMB master (right bottom) -> branch-2 name -> Merge into Current
+4. Conflicts -> Merge...
+5. Push
+
+Update from Git:
+1. VCS -> Update Project (Ctrl+T)
+2. Rebase
+3. Ok
+
+
